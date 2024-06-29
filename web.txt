@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>web技术基础实验V4.3</title>
+		<script src="js/utils.js"></script>
+		<link href="2.css" rel="stylesheet"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	</head>
+	<body>
+		<h2 class="b">2023-2024学期课程情况</h2>
+				<nav style="text-align: center;background: linear-gradient(to right,deepskyblue,white);">
+					<a href="a.html" target="mainFrame">课程介绍</a>&nbsp;&nbsp;
+					<a href="b.html" target="mainFrame">课表</a>&nbsp;&nbsp;
+					<a href="c.html" target="mainFrame">教材</a>&nbsp;&nbsp;
+					<a href="d.html" target="mainFrame">备忘录</a>&nbsp;&nbsp;
+					<div id="timeDisplay"></div>
+				</nav>
+			<iframe name="mainFrame" src="a.html" height ="540px" width="100%" style="background-color: aquamarine;"></iframe>
+		<div class="k">
+			<p>&copy;闽江学院&nbsp;计算机和大数据学院&trade;软件工程2班</p>
+			<p>联系人:卢涛&nbsp;学号:3232508201</p>
+		</div>
+	</body>
+</html>
