@@ -1,0 +1,174 @@
+/* 标题样式 */
+h2 {
+    text-align: center;
+    color: #4B0082; /* 紫色 */
+    margin-top: 20px;
+}
+
+/* 导航样式 */
+nav {
+    text-align: center;
+    background: linear-gradient(to right, #00BFFF, #FFFFFF); /* 渐变背景 */
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #0000FF; /* 蓝色 */
+    font-size: 18px;
+    margin: 0 10px;
+    transition: font-size 0.3s;
+}
+
+nav a:hover {
+    color: #20B2AA; /* 浅海洋绿 */
+    font-size: 20px;
+}
+
+/* 页面底部样式 */
+.k {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    background-color: #FF69B4; /* 深粉色 */
+    padding: 10px 0;
+    color: #FFFFFF; /* 白色 */
+}
+
+/* 版权信息样式 */
+.k p {
+    margin: 5px 0;
+}
+
+/* IFrame 样式 */
+iframe {
+    border: none;
+    background: linear-gradient(to bottom, #FFDEE9, #B5FFFC); /* 渐变背景，从淡粉色到淡青色 */
+}
+
+/* 链接样式 */
+a {
+    text-decoration: underline;
+    color: #0000FF; /* 蓝色 */
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #20B2AA; /* 浅海洋绿 */
+}
+
+/* 备忘录表单样式 */
+#memoform {
+    text-align: center;
+    padding: 20px 0;
+    border: 3px solid #8A2BE2; /* 蓝紫色 */
+    width: 60%;
+    margin: 20px auto;
+    background-color: #F5FFFA; /* 薄荷奶油 */
+}
+
+/* 备忘录表单输入框样式 */
+#memoform input[type="text"],
+#memoform input[type="date"] {
+    width: 80%;
+    padding: 8px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* 备忘录表单重要性和完成状态选项样式 */
+#memoform input[type="radio"] {
+    margin: 5px;
+}
+
+/* 备忘录表单按钮样式 */
+#memoform button {
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: #FF69B4; /* 深粉色 */
+    color: #FFFFFF; /* 白色 */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#memoform button:hover {
+    background-color: #FF1493; /* 鲑鱼色 */
+}
+
+/* 备忘录列表样式 */
+ul {
+    text-align: center;
+    padding-left: 0;
+}
+
+/* 备忘录列表项样式 */
+.memo-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.memo-item:hover {
+    background-color: #E6E6FA; /* 淡紫色 */
+}
+
+/* 已完成的备忘录项样式 */
+.completed {
+    color: #FF0000; /* 红色 */
+}
+
+/* 未完成的备忘录项样式 */
+.notcompleted {
+    color:purple; 
+}
+
+/* 中间内容的背景颜色 */
+body {
+    background: linear-gradient(to bottom, #FFDEE9, #B5FFFC); /* 渐变背景，从淡粉色到淡青色 */
+    margin: 0;
+    padding: 0;
+}
+
+/* 教材部分的布局 */
+.book-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+/* 教材项样式 */
+.book-item {
+    background-color: #FFF0F5; /* 浅紫红 */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.book-item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.book-item h3 {
+    color: #8B0000; /* 深红色 */
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.book-item p {
+    color: #4B0082; /* 紫色 */
+    text-align: center;
+}
